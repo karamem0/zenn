@@ -1,0 +1,10 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "karamem0",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.100"
+  }
+}
