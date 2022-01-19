@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - main
+
+env:
+  AZCOPY_SPA_CLIENT_SECRET: ${{secrets.AZURE_CLIENT_SECRET}}
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repos
+        uses: actions/checkout@v2
+      - name: Install AzCopy
+        uses: kheiakiyama/install-azcopy-action@v1
+        with:
+          version: v10
+      - name: Copy files
+        run: |
+          azcopy login --service-principal --tenant-id ${{secrets.AZURE_TENANT_ID}} --application-id ${{secrets.AZURE_CLIENT_ID}}
+          azcopy sync articles ${{secrets.AZURE_BLOB_URL}}
