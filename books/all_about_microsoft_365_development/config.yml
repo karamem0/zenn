@@ -1,0 +1,15 @@
+title: "Microsoft 365 開発のすべて"
+summary: "Microsoft 365 は、マイクロソフトによって提供される、個人、職場、または学校での生産性を高め、コラボレーションを容易にし、セキュリティを高めるための、クラウド サービスの総称です。Microsoft 365 はそのままの利用も可能ですが、ビジネスの要求に合わせて、機能を拡張することが可能です。この本では、Microsoft 365 開発の方法について、2018 年より Microsoft MVP for Office Development を受賞している著者が紹介します。"
+topics: ["adaptivecards", "azuread", "microsoftgraph", "microsoftteams", "sharepoint"]
+published: false
+price: 0
+chapters:
+  - chapter1
+  - chapter2
+  - chapter3
+  - chapter4
+  - chapter5
+  - chapter6
+  - chapter7
+  - chapter8
+  - chapter9
