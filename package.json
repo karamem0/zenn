@@ -5,6 +5,6 @@
   "author": "karamem0",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.108"
+    "zenn-cli": "^0.1.110"
   }
 }
