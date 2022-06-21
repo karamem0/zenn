@@ -5,6 +5,9 @@
   "author": "karamem0",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.110"
+    "zenn-cli": "^0.1.113"
+  },
+  "volta": {
+    "node": "16.15.1"
   }
 }
